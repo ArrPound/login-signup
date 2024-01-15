@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: #fff;
+    padding-bottom: 30px;
+    width: 600px;
+    border-radius: 50px;
+    user-select: none;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+    gap: 9px;    
+    align-items: center;
+    letter-spacing: 1px;
+
+}
+.text {
+    color: #393bb8;
+    font-size: 40px;
+    font-weight: 700;
+}
+.underline {
+    width: 61px;
+    height: 6px;
+    background:  #942ba4;
+    border-radius: 9px;
+}
+.inputs {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 380px;
+    height: 80px;
+    background: linear-gradient(135deg, #393bb8, #942ba4);
+    border-radius: 30px;
+}
+.input img {
+    margin: 0px 30px;
+}
+.input input {
+    height: 30px;
+    width: 200px;
+    outline: none;
+    background: transparent;
+    border: none;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+   
+}
+.input input::placeholder {
+    color: #fff;
+    opacity: 0.7;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+}
+.forgot-password {
+    display: flex;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin: auto;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+.forgot-password span {
+    color: #393bb8;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.submit-container {
+    display: flex;
+    gap: 30px;
+    margin: 50px auto;
+    letter-spacing: 1px;
+
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    color: #fff;
+    background: #393bb8;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.black {
+    background: #000000;
+    color: #eaeaea;
+}
+.plzsign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: #942ba4;
+}
